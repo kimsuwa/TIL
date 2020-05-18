@@ -25,10 +25,10 @@ int main() {
 	/* Answer
 	int a, b, i, tmp;
 	scanf_s("%d %d", &a, &b);		// 'a' is total number of animals 
-									// 'b' is total number of hen
+					// 'b' is total number of animals' legs
 	for (i = 1; i < a; i++) {		// 'i' is the number of rabbit 
-		tmp = 4 * i + 2 * (a - i);	// 'a-i' is total number of hen 
-		if (tmp == b) {				// 'tmp' is estimated total leg number 
+		tmp = 4 * i + 2 * (a - i);	// 'a-i' is the number of hen 
+		if (tmp == b) {		// when 'tmp' (estimated total leg number) is b  
 			printf("%d %d", i, a-i);
 			break;
 		}
